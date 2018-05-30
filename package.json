@@ -1,0 +1,30 @@
+{
+		"name": "unique-elements",
+		"version": "1.0.0",
+		"description": "Strip an array of all duplicate entries, including complex objects",
+		"main": "index.js",
+		"author": "Eric Adamski <er.adamski@gmail.com>",
+    "repositoy": "git@github.com:ericadamski/unique-elements.git",
+		"license": "MIT",
+		"scripts": {
+				"test": "jest",
+        "precommit": "pretty-quick"
+		},
+		"files": [
+				"index.js"
+		],
+		"keywords": [
+				"array",
+				"set",
+				"uniq",
+				"unique",
+				"duplicate",
+				"remove"
+		],
+		"devDependencies": {
+				"husky": "^0.14.3",
+				"jest": "^23.0.1",
+				"prettier": "^1.13.2",
+				"pretty-quick": "^1.6.0"
+		}
+}
